@@ -23,7 +23,7 @@ def brute_eq():
     y = -10
     p = ""
     while x < 10:
-        y = -10
+        
         while y < 10:
             if ((x*a) + (y*b) == c):
                 if ((x*d) + (y*e) == f):
@@ -35,6 +35,7 @@ def brute_eq():
             else:
                 y += 1
         x += 1
+        y = -10
     if p == "":
         print("There is no solution")
     else:
