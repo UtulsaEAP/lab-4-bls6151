@@ -7,6 +7,8 @@ Lab Time: Fri 3
 
 def norm():
     # Write your code here
+    t = input()
+    print(t)
 
 if __name__ == "__main__":
     norm()
