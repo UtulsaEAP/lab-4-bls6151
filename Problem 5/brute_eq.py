@@ -27,7 +27,7 @@ def brute_eq():
         while y < 10:
             if ((x*a) + (y*b) == c):
                 if ((x*d) + (y*e) == f):
-                    p = ("x = " + str(x) + ", y = " + str(y))
+                    p = ("x = " + str(x) + " , y = " + str(y))
                     x = 10
                     y = 10
                 else:
