@@ -7,15 +7,16 @@ Lab Time: Fri 3
 
 def reverse_string():
     # YOUR CODE HERE
-    word = ""
-    while input() != "done":
-        word = input()
+    word = input()
+    while word != "done":
+        
         drow = ""
-        t = 0
+        t = 1
         while len(drow) < len(word):
             drow += word[len(word) - t]
             t += 1
         print(drow)
+        word = input()
 
 if __name__ == "__main__":
     reverse_string()
