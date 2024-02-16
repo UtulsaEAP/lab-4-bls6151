@@ -10,7 +10,7 @@ def inc_5():
     num2 = int(input())
     # Write your code here
     a = ""
-    if num2 > num1:
+    if num2 >= num1:
         while num1 <= num2:
             a += str(num1) + " "
             num1 = int(num1) + 5
