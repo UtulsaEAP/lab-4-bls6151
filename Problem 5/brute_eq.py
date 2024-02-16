@@ -34,6 +34,7 @@ def brute_eq():
                     x += 1
             else:
                 y += 1
+        x += 1
     if p == "":
         print("There is no solution")
     else:
