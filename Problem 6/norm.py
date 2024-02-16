@@ -7,8 +7,14 @@ Lab Time: Fri 3
 
 def norm():
     # Write your code here
-    t = input()
-    print(t)
+    t = int(input())
+    r = 0
+    list = [t]
+    while r < t:
+        num = input()
+        list[r] = num
+        r += 1
+    print(list)
 
 if __name__ == "__main__":
     norm()
